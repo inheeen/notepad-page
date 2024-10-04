@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>PlainSvent-tools</title>
+</head>
+<body>
+    <!-- первая секция -->
+    <section class="main-section bgc">
+        <div class="main-section__nav-container container">
+            <img src="./src/icons/logo.png" alt="" class="main-section__logo">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <div class="nav-item__circle-one circle"></div>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="navbar__text">About</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="nav-item__circle-two circle"></div>
+                        <a class="nav-link" href="#"><p class="navbar__text">Ventures</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="nav-item__circle-three circle"></div>
+                        <a class="nav-link" href="#"><p class="navbar__text">Tools</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="nav-item__circle-four circle"></div>
+                        <a class="nav-link" href="#"><p class="navbar__text-active">Notepad</p></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="cart-container__btn second-btn">
+                  <a href="#" class="cart-container__link">
+                    <p class="cart-container__text">Connect</p>
+                  </a>
+                </button>
+              </nav>
+        </div>
+        <div class="main-section__content-container">
+          <div class="main-section__note note container">
+            <img src="./src/img/four-section.png" alt="" class="main-section__img">
+            <p class="note__title">The NotePad</p>
+            <p class="note__text">Get the latest stories
+              delivered to your inbox</p>
+            <div class="note__form-box">
+              <form action="send.php" class="form" method="post">
+                <input type="text" class="note__input" name="fio" placeholder="Имя" required>
+                <input type="text" class="note__input" name="email" placeholder="E-mail" required>
+                <button class="note__btn">
+                  <img src="./src/img/3.png" alt="" class="note__btn-img">
+                </button>
+              </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- вторая секция -->
+    <section class="second-section bgc">
+        <div class="second-section__content-container container">
+          <div class="second-section__btn-box btn-box">
+            <a href="" class="btn-box__link">All</a>
+            <a href="" class="btn-box__link">Advice</a>
+            <a href="" class="btn-box__link">Stories</a>
+            <a href="" class="btn-box__link">News</a>
+          </div>
+          <!-- гриды -->
+          <div class="second-section__items-container items-container container">
+            <!-- 1 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid1.png" alt="" class="body-box__img">
+              <p class="body-box__text">Is Product Hunt worth it?</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Mar 11, 2024</p>
+            </div>
+          </div>
+          <!-- 2 карточка -->
+           <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid2.png" alt="" class="body-box__img">
+              <p class="body-box__text">How do you find the customers who need your attention?</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Mar 7, 2024</p>
+            </div>
+          </div>
+          <!-- 3 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid3.png" alt="" class="body-box__img">
+              <p class="body-box__text">Can Stop solve the
+                overwhelming sales email
+                problem?</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Mar 7, 2024</p>
+            </div>
+          </div>
+          <!-- 4 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid4.png" alt="" class="body-box__img">
+              <p class="body-box__text">Have we lost the art of
+                connecting?</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Mar 5, 2024</p>
+            </div>
+          </div>
+          <!-- 5 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-news circle"></div>
+                <div class="head-box__text">News</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid5.png" alt="" class="body-box__img">
+              <p class="body-box__text">A new look for PSV</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Feb 2, 2024</p>
+            </div>
+          </div>
+          <!-- 6 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid6.png" alt="" class="body-box__img">
+              <p class="body-box__text">Unexpected sources of
+                inspiration: Finding Space in
+                Scandinavia</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Nov 9, 2023</p>
+            </div>
+          </div>
+          <!-- 7 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid7.png" alt="" class="body-box__img">
+              <p class="body-box__text">Love to see builders supporting
+                builders</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Nov 7, 2023</p>
+            </div>
+          </div>
+          <!-- 8 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid8.png" alt="" class="body-box__img">
+              <p class="body-box__text">My Favorite Tools: Crossbeam</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Nov 1, 2023</p>
+            </div>
+          </div>
+          <!-- 9 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid9.png" alt="" class="body-box__img">
+              <p class="body-box__text">How to make a Minimum Viable Brand work for your startup</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Oct 31, 2023</p>
+            </div>
+          </div>
+          <!-- 10 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid10.png" alt="" class="body-box__img">
+              <p class="body-box__text">Juggling the partnership life</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Oct 5, 2023</p>
+            </div>
+          </div>
+          <!-- 11  карточка -->
+           <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid11.png" alt="" class="body-box__img">
+              <p class="body-box__text">Unexpected sources of inspiration: Café Bravo in Montreal, QC</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Sep 19, 2023</p>
+            </div>
+          </div>
+          <!-- 12 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid12.png" alt="" class="body-box__img">
+              <p class="body-box__text">Mindtrip.ai promises a better
+                travel planning experience</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Breena Fain</p>
+              <p class="footer-box__date">Sep 12, 2023</p>
+            </div>
+          </div>
+          <!-- 13 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-news circle"></div>
+                <div class="head-box__text">News</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid13.png" alt="" class="body-box__img">
+              <p class="body-box__text">Sneak Peek: Pano Dashboard
+                List</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Sep 6, 2023</p>
+            </div>
+          </div>
+          <!-- 14 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid14.png" alt="" class="body-box__img">
+              <p class="body-box__text">An interview with Zak Pines, VP
+                of Partnerships at Formstack</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Sep 5, 2023</p>
+            </div>
+          </div>
+          <!-- 15 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid15.png" alt="" class="body-box__img">
+              <p class="body-box__text">Apollo's impressive growth</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Sep 5, 2023</p>
+            </div>
+          </div>
+          <!-- 16 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid16.png" alt="" class="body-box__img">
+              <p class="body-box__text">Best JTBD breakdown I've seen</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jeremy Clarke</p>
+              <p class="footer-box__date">Aug 31, 2023</p>
+            </div>
+          </div>
+          <!-- 17 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid17.png" alt="" class="body-box__img">
+              <p class="body-box__text">Delighted: Arc</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Aug 30, 2023</p>
+            </div>
+          </div>
+          <!-- 18 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid18.png" alt="" class="body-box__img">
+              <p class="body-box__text">Can I replace our copywriter with
+                ChatGPT?</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Breena Fain</p>
+              <p class="footer-box__date">Aug 29, 2023</p>
+            </div>
+          </div>
+          <!-- 19  карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid19.png" alt="" class="body-box__img">
+              <p class="body-box__text">How to avoid chasing the rabbit,
+                and the truth behind letting go of
+                bad ideas</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Breena Fain</p>
+              <p class="footer-box__date">Aug 25, 2023</p>
+            </div>
+          </div>
+          <!-- 20 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid20.png" alt="" class="body-box__img">
+              <p class="body-box__text">The one question to end your day</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jeremy Clarke</p>
+              <p class="footer-box__date">Aug 24, 2023</p>
+            </div>
+          </div>
+          <!-- 21 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">News</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid21.png" alt="" class="body-box__img">
+              <p class="body-box__text">Tell me there's a better calendar
+                tool than Calendly...</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Aug 21, 2023</p>
+            </div>
+          </div>
+          <!-- 22 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid22.png" alt="" class="body-box__img">
+              <p class="body-box__text">Deep dive: Building a
+                personalized customer view</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Aug 21, 2023</p>
+            </div>
+          </div>
+          <!-- 23 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid23.png" alt="" class="body-box__img">
+              <p class="body-box__text">Big fan of behind the scenes
+                product shares</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Aug 18, 2023</p>
+            </div>
+          </div>
+          <!-- 24 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid24.png" alt="" class="body-box__img">
+              <p class="body-box__text">How to Do Great Work</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jeremy Clarke</p>
+              <p class="footer-box__date">Aug 17, 2023</p>
+            </div>
+          </div>
+          <!-- 25 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid25.png" alt="" class="body-box__img">
+              <p class="body-box__text">5 things I do every morning to
+                stay positive</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Aug 16, 2023</p>
+            </div>
+          </div>
+          <!-- 26 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid26.png" alt="" class="body-box__img">
+              <p class="body-box__text">Unexpected sources of
+                inspiration: Traveling in Japan</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Aug 29, 2023</p>
+            </div>
+          </div>
+          <!-- 27 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid27.png" alt="" class="body-box__img">
+              <p class="body-box__text">The STEPPS framework by
+                Jonah Berger</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Gabe Caldwell</p>
+              <p class="footer-box__date">Aug 14, 2023</p>
+            </div>
+          </div>
+          <!-- 28 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-stories circle"></div>
+                <div class="head-box__text">Stories</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid28.png" alt="" class="body-box__img">
+              <p class="body-box__text">Love this marketing play by Away</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Breena Fain</p>
+              <p class="footer-box__date">Aug 11, 2023</p>
+            </div>
+          </div>
+          <!-- 29 карточка -->
+          <div class="items-container__items-box items-box">
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-advice circle"></div>
+                <div class="head-box__text">Advice</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid29.png" alt="" class="body-box__img">
+              <p class="body-box__text">How to stay in the flow as a
+                founder</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jeremy Clarke</p>
+              <p class="footer-box__date">Aug 10, 2023</p>
+            </div>
+          </div>
+          <!-- 30 карточка -->
+          <div class="items-container__items-box items-box"> 
+            <div class="items-box__head-box head-box">
+              <div class="head-box__left-wrapper">
+                <div class="head-box__circle-news circle"></div>
+                <div class="head-box__text">News</div>
+              </div>
+              <a href="" class="head-box__link">Read</a>
+            </div>
+            <div class="items-box__body-box body-box">
+              <img src="./src/img/grid18.png" alt="" class="body-box__img">
+              <p class="body-box__text">Sneak peek for Pano</p>
+            </div>
+            <div class="items-box__footer-box footer-box">
+              <p class="footer-box__name">Jason Walkow</p>
+              <p class="footer-box__date">Aug 9, 2023</p>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+    <!-- третья секция -->
+    <div class="third-section bgc">
+      <div class="third-section__content-container container">
+        <div class="third-section__note note">
+          <img src="./src/img/four-section.png" alt="" class="note__img">
+          <p class="note__title">The NotePad</p>
+          <p class="note__text">Get the latest stories
+            delivered to your inbox</p>
+          <div class="note__form-box">
+            <form action="send.php" class="form" method="post">
+              <input type="text" class="note__input" name="fio" placeholder="Имя" required>
+              <input type="text" class="note__input" name="email" placeholder="E-mail" required>
+              <button class="note__btn">
+                <img src="./src/img/3.png" alt="" class="note__btn-img">
+              </button>
+            </form>
+          </div>
+      </div>
+      </div>
+    </div>
+        <!-- подвал -->
+    <footer class="footer bgc">
+        <div class="footer__content-container container">
+          <div class="footer__first-section">
+            <div class="footer__text-box">
+              <p class="footer__title">About</p>
+              <p class="footer__text">Our ethos</p>
+              <p class="footer__text">Our process</p>
+              <p class="footer__text">Meet the team</p>
+            </div>
+            <div class="footer__text-box">
+              <p class="footer__title">Ventures</p>
+              <p class="footer__text">All ventures</p>
+              <p class="footer__text">Featured</p>
+              <p class="footer__text">Share your idea</p>
+            </div>
+            <div class="footer__text-box">
+              <p class="footer__title">Tools</p>
+              <p class="footer__text">Cool tools</p>
+              <p class="footer__text">Share a tool</p>
+            </div>
+            <div class="footer__text-box">
+              <p class="footer__title">The Notepad</p>
+              <p class="footer__text">Latest posts</p>
+              <p class="footer__text">Subscribe</p>
+            </div>
+          </div>
+          <div class="footer__line container line"></div>
+          <div class="footer__second-section">
+            <p class="footer__text footer__second-text">Got a great idea but need help building it?</p>
+            <button class="footer__btn second-btn">Get in touch</button>
+          </div>
+          <div class="footer__line container line"></div>
+          <div class="footer__third-section">
+            <div class="footer__big-text">Plain Sight Ventures </div>
+            <img src="./src/img/5.png" alt="" class="footer__big-img">
+          </div>
+          <div class="footer__four-section">
+            <p class="footer__text footer__second-text">© 2024 Plain Sight Ventures</p>
+            <div class="footer__social-box">
+              <p class="footer__text footer__third-text">Privacy</p>
+              <a href="" class="footer__networks">
+                <img src="./src/img/social1.png" alt="" class="footer__social-img">
+              </a>
+              <a href="" class="footer__networks">
+                <img src="./src/img/social2.png" alt="" class="footer__social-img">
+              </a>
+              <a href="" class="footer__networks">
+                <img src="./src/img/social3.png" alt="" class="footer__social-img">
+              </a>
+              <a href="" class="footer__networks">
+                <img src="./src/img/social4.png" alt="" class="footer__social-img">
+              </a>
+              <a href="" class="footer__networks">
+                <img src="./src/img/social5.png" alt="" class="footer__social-img">
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script defer src="./src/js/index.js"></script>
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
