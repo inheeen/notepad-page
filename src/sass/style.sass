@@ -116,6 +116,9 @@ body
         border-radius: 100px
         background-color: $black
         border: none
+        display: flex
+        align-items: center
+        justify-content: center
 
 .main-section
     background: url("../img/main-section__bgc.png") center
@@ -309,6 +312,8 @@ body
         width: 145px
         height: 46px
         background-color: #FEFEFE
+        color: $black
+        cursor: pointer
     &__big-text
         font-size: 64px
         text-align: center
@@ -407,6 +412,7 @@ body
         background-color: transparent
         font-family: "display"
         font-size: 16px
+        color: $black
 
 @media (max-width: 991px)
     .container
@@ -463,7 +469,7 @@ body
             &:last-child
                 margin-right: 0px
     .items-box
-        max-width: 270px
+        width: 270px
         justify-items: start
     .second-section
         &__btn-box 
